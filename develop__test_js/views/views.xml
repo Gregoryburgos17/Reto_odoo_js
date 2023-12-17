@@ -1,7 +1,7 @@
 <odoo>
   <data>
     <!-- explicit list view definition -->
-<!--
+
     <record model="ir.ui.view" id="develop__test_js.list">
       <field name="name">develop_Test_js list</field>
       <field name="model">develop__test_js.develop__test_js</field>
@@ -13,16 +13,16 @@
         </tree>
       </field>
     </record>
--->
+
 
     <!-- actions opening views on models -->
-<!--
+
     <record model="ir.actions.act_window" id="develop__test_js.action_window">
       <field name="name">develop_Test_js window</field>
       <field name="res_model">develop__test_js.develop__test_js</field>
       <field name="view_mode">tree,form</field>
     </record>
--->
+
 
     <!-- server action to the one above -->
 <!--
@@ -41,9 +41,9 @@
 -->
 
     <!-- Top menu item -->
-<!--
-    <menuitem name="develop_Test_js" id="develop__test_js.menu_root"/>
--->
+
+    <menuitem name="develop_Test_js" id="develop__test_js.menu_root" action="develop__test_js.action_window"/>
+
     <!-- menu categories -->
 <!--
     <menuitem name="Menu 1" id="develop__test_js.menu_1" parent="develop__test_js.menu_root"/>
