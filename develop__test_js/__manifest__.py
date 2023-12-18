@@ -32,4 +32,12 @@
     'demo': [
         'demo/demo.xml',
     ],
+    'assets': {
+        'web.assets_backend': [
+            'develop__test_js/static/src/js/buttom.js',
+            'develop__test_js/static/src/xml/buttom.xml',
+            'develop__test_js/static/src/scss/*/*.scss',
+        ],
+        
+    },
 }
